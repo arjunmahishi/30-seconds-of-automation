@@ -1,12 +1,12 @@
-# Download youtube video
+## Download youtube video
 This is a very simple and common python script to download a youtube video
 
-## Setup
+### Setup
 ```bash
 pip install pytube
 ```
 
-## Code
+### Code
 ```py
 from pytube import YouTube
 yt = YouTube("https://www.youtube.com/watch?v=n06H7OcPd-g")
