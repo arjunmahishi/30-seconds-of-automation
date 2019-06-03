@@ -4,7 +4,8 @@
   "description": "A curated collection of useful automation snippets that you can understand in 30 seconds or less.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node scripts/build.js"
   },
   "author": "arjunmahishi",
   "license": "CC0-1.0"
