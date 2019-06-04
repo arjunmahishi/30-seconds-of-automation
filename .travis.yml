@@ -5,3 +5,7 @@ node_js:
 
 script:
     - npm run build
+
+after_success:
+    - chmod +x .travis/push.sh
+    - .travis/push.sh
