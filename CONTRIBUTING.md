@@ -17,3 +17,6 @@
 - DO NOT MODIFY `README.md`. If you want to modify existing snippets, go to the respective snippet file in `/snippets` and modify it. The travis build will take care of making the changes in `README.md`
 - While creating a new file in `/snippets`, the name of the file should be the same as the title of the snippet, but in camelCase. (Example: if the title is `Download youtube video`, the file name should be `downloadYoutubeVideo.md`)
 - If you want to make changes to `README.md`, make the changes in the [readme_template](scripts/readme_template). Like mentioned above, the travis build will take care of modifying `README.md`
+
+----
+**Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
