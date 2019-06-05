@@ -7,6 +7,9 @@ A curated list of automation scripts that make a developer's life. Inspired by o
 ## Download youtube video
 This is a very simple and common python script to download a youtube video
 
+<details>
+<summary>view snippet</summary>
+
 ### Setup
 ```bash
 pip install pytube
@@ -20,9 +23,14 @@ yt = yt.get('mp4', '720p')
 yt.download('/path/to/download/directory')
 ```
 
+</details>
+
 ## Git aliases
 
 A bunch of useful aliases for making git commands shorter and easier to use
+
+<details>
+<summary>view snippet</summary>
 
 ### Setup
 
@@ -36,3 +44,5 @@ alias gpm="git push origin master"
 alias gac="git add -A && git commit $1" # add and commit new changes
 alias grh="git reset HEAD~1" # undo the last commit
 ```
+
+</details>
