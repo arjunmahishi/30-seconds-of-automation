@@ -33,7 +33,7 @@ const build = () => {
         let filepath = `${SNIPPETS_PATH}/${file}`
         let conts = fs.readFileSync(filepath).toString()
         conts = formatSnippetForReadme(conts)
-        snippetsContent += conts + "\n"
+        snippetsContent += "\n" + conts + "\n"
     }
 
     readmeTemplate = pasteValue(readmeTemplate, "contents_body", snippetsContent.trim())
