@@ -25,6 +25,7 @@ yt.download('/path/to/download/directory')
 
 </details>
 
+
 ## Git aliases
 
 A bunch of useful aliases for making git commands shorter and easier to use
@@ -46,6 +47,7 @@ alias grh="git reset HEAD~1" # undo the last commit
 ```
 
 </details>
+
 ## TODO Comments
 
 A simple hack to to list all the `TODO` comments in the current directory and it's sub-directories
