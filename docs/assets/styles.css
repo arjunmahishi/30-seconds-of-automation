@@ -8,17 +8,20 @@
   padding: 1em;
 }
 
-h1 {
-  margin: .5em 0;
+.snippets-container {
+  padding: 1em;
+  background-color: #282c34;
+  margin: 1em 0;
 }
 
-ul {
-  padding: 1em .5em;
+h1 {
+  margin: .5em 0;
 }
 
 ul > li {
   font-family: 'Roboto Mono', monospace;
   list-style: none;
   font-size: 1em;
-  margin: .2em 0;
+  line-height: 2em;
+  color: #ffffff;
 }
