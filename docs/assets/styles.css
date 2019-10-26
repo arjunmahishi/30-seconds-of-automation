@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 1em;
+}
+
+h1 {
+  margin: .5em 0;
+}
+
+ul {
+  padding: 1em .5em;
+}
+
+ul > li {
+  font-family: 'Roboto Mono', monospace;
+  list-style: none;
+  font-size: 1em;
+  margin: .2em 0;
+}
