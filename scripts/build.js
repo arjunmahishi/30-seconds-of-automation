@@ -1,7 +1,7 @@
 const fs = require("fs");
  
 const SNIPPETS_PATH = "./snippets";
-const DOCS_PATH = "./docs";
+const SNIPPETS_JSON = "./docs/assets/snippets.json";
 const README_TEMPLATE_PATH = "scripts/readme_template.md";
 const SNIPPET_PLACEHOLDER_PATH = "scripts/snippet_placeholder.md"
 
@@ -25,8 +25,8 @@ const formatSnippetForReadme = (snippetContent) => {
 }
 
 const writeToJson = (json) => {
-    fs.writeFile(`${DOCS_PATH}/assets/snippets.json`, json, (err) => {
-        if (err) console.log('couldnt write to JSON snippets file', err);
+    fs.writeFile(`${SNIPPETS_JSON}`, json, (err) => {
+        if (err) console.log("couldnt write to JSON snippets file", err);
     });
 };
 
@@ -39,7 +39,7 @@ const build = () => {
     const snippetFileNames = [];
     for (file of snippetFiles) {
         let filepath = `${SNIPPETS_PATH}/${file}`
-        snippetFileNames.push({ name: filepath.split('/')[2].split('.')[0] });
+        snippetFileNames.push({ name: filepath.split("/")[2].split(".")[0] });
         let conts = fs.readFileSync(filepath).toString()
         conts = formatSnippetForReadme(conts)
         snippetsContent += "\n" + conts + "\n"
